@@ -1,4 +1,4 @@
 /* code goes here */
 document.addEventListener("DOMContentLoaded", e => {
-  document.querySelector("html").addEventListener("load", e => document.getElementById('hidden-div').innerHTML = '301');
+  document.querySelector("div#hidden-div").addEventListener("click", e => e.innerHTML = '301');
 })
